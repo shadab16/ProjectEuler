@@ -66,6 +66,9 @@ euler:		lib/euler.o
 127b:		127b.o
 	$(CXX) -o problem$@ $@.o $(LIBS)
 
+187:		187.o
+	$(CXX) -o problem$@ $@.o $(LIBS)
+
 204:		204.o
 	$(CXX) -o problem$@ $@.o $(LIBS)
 
