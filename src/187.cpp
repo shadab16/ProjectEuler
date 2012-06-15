@@ -11,7 +11,7 @@ int main() {
 
 	int count = 0;
 
-	for ( p1 = primes.begin(); p1 != primes.end(); ++p1) {
+	for (prime_set::const_iterator p1 = primes.begin(); p1 != primes.end(); ++p1) {
 		if (*p1 * *p1 > limit) {
 			break;
 		}
